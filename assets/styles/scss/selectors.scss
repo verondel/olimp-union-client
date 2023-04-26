@@ -1,0 +1,20 @@
+%time {
+  padding: 0;
+  color: $color;
+  text-align: center;
+
+  &::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  
+  &::-webkit-clear-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+
+  &::-webkit-datetime-edit-ampm-field {
+    display: none;
+  }
+}
